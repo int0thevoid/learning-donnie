@@ -1,0 +1,58 @@
+<div class="modal fade" id="Register" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div id="idDivMsgReg"></div>
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4><span class="fa fa-fw fa-lg fa-align-justify"></span> Registro de usuario</h4>
+            </div>
+            <div class="modal-body">
+                <div role="form" onkeypress="return runScriptReg(event)">
+                    <div class="form-group">
+                        <label for="idRegTxtNombre"><span class="fa fa-fw fa-lg fa-pencil-square"></span>Nombres</label>
+                        <input type="text" class="form-control" id="idRegTxtNombre" placeholder="Nombres" required="" name="regTxtNombre" maxlength="30">
+                    </div>
+                    <div class="form-group">
+                        <label for="idRegTxtApellidos"><span class="fa fa-fw fa-lg fa-pencil"></span>Apellidos</label>
+                        <input type="text" class="form-control" placeholder="Apellidos" required="" name="regTxtApellido" id="idRegTxtApellidos" maxlength="50">
+                    </div>
+                    <div class="form-group">
+                        <label for="idRegTxtEmail1"><span class="fa fa-fw fa-lg fa-envelope"></span> Email</label>
+                        <input type="email" class="form-control" id="idRegTxtEmail1" placeholder="Email" required="" name="regTxtEmail1" maxlength="50">
+                    </div>
+                    <div class="form-group">
+                        <label for="idRegTxtEmail2"><span class="fa fa-fw fa-lg fa-envelope"></span> Repita Email</label>
+                        <input type="email" class="form-control" id="idRegTxtEmail2" placeholder="Repita Email" required="" name="txtEmail2" maxlength="50">
+                    </div>
+                    <div class="form-group">
+                        <label for="idRegTxtPass1"><span class="fa fa-fw fa-lg fa-eye"></span> Contraseña</label>
+                        <input type="password" class="form-control" id="idRegTxtPass1" placeholder="Contraseña" required="" name="txtEmail2" maxlength="50">
+                    </div>
+                    <div class="form-group">
+                        <label for="idRegTxtPass2"><span class="fa fa-fw fa-lg fa-eye"></span> Repita Contraseña</label>
+                        <input type="password" class="form-control" id="idRegTxtPass2" placeholder="Repita contraseña" required="" name="txtEmail2" maxlength="50">
+                    </div>
+                    <div class="form-group">
+                        <label for="idRegDdlSemestre"><span class="fa fa-fw fa-lg fa-calendar"></span> Seleccione semestre</label>
+                            <select name="regDdlSemestre" id="idRegDdlSemestre" class="form-control" required="">
+                                <option value="0" selected="" disabled="" hidden="">Seleccione su semestre actual</option>
+                                <option value="1">1º semestre</option>
+                                <option value="2">2º semestre</option>
+                                <option value="3">3º semestre</option>
+                                <option value="4">4º semestre</option>
+                                <option value="5">5º semestre</option>
+                                <option value="6">6º semestre</option>
+                                <option value="7">7º semestre</option>
+                                <option value="8">8º semestre</option>
+                            </select>
+                    </div>
+                    <button type="button" onclick="goReg()" class="btn btn-default btn-success btn-block"><span class="fa fa-fw fa-lg fa-sign-in"></span> Registrarse</button>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default btn-default pull-left" data-dismiss="modal"><span class="fa fa-fw fa-lg fa-remove"></span> Cancelar</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="/views/js/reg.js"></script>

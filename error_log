@@ -1,0 +1,6 @@
+[23-Nov-2016 04:25:03 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): No such file or directory in /home/learning/public_html/core/models/class.Conexion.php on line 5
+[23-Nov-2016 04:32:33 UTC] PHP Fatal error:  Cannot use object of type mysqli_result as array in /home/learning/public_html/core/inner/cursoFunctions.php on line 98
+[23-Nov-2016 04:59:29 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/learning/public_html/html/unidad.php on line 74
+[23-Nov-2016 04:59:31 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/learning/public_html/html/unidad.php on line 74
+[23-Nov-2016 04:59:32 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/learning/public_html/html/unidad.php on line 74
+[23-Nov-2016 04:59:39 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/learning/public_html/html/unidad.php on line 74
